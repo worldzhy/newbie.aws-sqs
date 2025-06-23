@@ -1,7 +1,6 @@
-
 {
   "config-service": {
-    "aws-sqs":{
+    "aws-sqs": {
       "accessKeyId": "process.env.AWS_SQS_ACCESS_KEY_ID",
       "secretAccessKey": "process.env.AWS_SQS_SECRET_ACCESS_KEY",
       "region": "process.env.AWS_SQS_REGION || 'us-east-1'",
@@ -15,7 +14,7 @@
     "AWS_SQS_QUEUE_URL": ""
   },
   "dependencies": {
-    "@aws-sdk/client-sqs": "^3.454.0",
+    "@aws-sdk/client-sqs": "^3.831.0",
     "validator": "^13.11.0"
   },
   "devDependencies": {
